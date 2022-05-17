@@ -1,0 +1,177 @@
+@charset "UTF-8"
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-flui {
+    padding: 0%;
+}
+
+.btn-custom {
+    background-color: #0064e7;
+    color: #ffffff;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #0064e7;
+}
+
+/* header */
+.header {
+    background-color: #0064e7;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #000cb6;
+}
+/* banniere */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+} 
+
+.inner-banner .btn-custom {
+    background-color: #0064e7;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #000cb6;
+}
+
+/* about */
+
+#about {
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+.about article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+/* portfolio */
+
+.portfolio {
+    background-color: #4e4848;
+    height: 800px;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height: 280px;
+    background-color: #0064e7;
+}
+
+
+/* contact */
+
+.footer {
+    background-color: #04094b;
+    height: 500px;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+.formulaireContact {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input(type=text) {
+   height: 50px;
+   width: 500px;
+   border: none;
+
+}
+
+.input(type=email) {
+    height: 50px;
+    width: 500px;
+    borer: none; 
+ }
+
+ textarea {
+     width: 500px;
+     height: 200px;
+     resize: vertical;
+ }
